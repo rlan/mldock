@@ -1,0 +1,4 @@
+pytorch1.0-conda3
+pytorch1.0-conda3-cuda10
+pytorch1.0-conda3-cuda9
+pytorch1.0-conda3-cuda8

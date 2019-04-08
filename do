@@ -17,17 +17,23 @@ usage() {
 
 build() {
 	echo "[[ Building $1 ]]"
-	cd $1 && docker build -t "$PROJECT:$1" . && cd ..
+	cd $1
+  docker build -t "$PROJECT:$1" .
+  cd ..
 }
 
 pull() {
 	echo "[[ Pulling $1 ]]"
-  cd $1 && docker pull "$PROJECT:$1" && cd ..
+  cd $1
+  docker pull "$PROJECT:$1"
+  cd ..
 }
 
 push() {
 	echo "[[ Pushing $1 ]]"
-  cd $1 && docker push "$PROJECT:$1" && cd ..
+  cd $1
+  docker push "$PROJECT:$1"
+  cd ..
 }
 
 release() {
@@ -39,7 +45,7 @@ release() {
 
 rmi() {
 	echo "[[ Removing $1 ]]"
-  cd $1 && docker rmi "$PROJECT:$1" && cd ..
+  docker rmi "$PROJECT:$1"
 }
 
 

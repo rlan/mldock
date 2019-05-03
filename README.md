@@ -5,9 +5,7 @@
 ![](https://img.shields.io/docker/pulls/wqael/mldock.svg)
 ![](https://img.shields.io/docker/stars/wqael/mldock.svg)
 
-
 Base machine learning docker images.
-
 
 To pull,
 
@@ -16,6 +14,13 @@ docker pull wqael/mldock:<tag>
 ```
 
 ## Tags
+
+### Experimental
+
+| Tag   | Comment | Dockerfile | Info |
+| ----- | ------- | ---------- | ---- |
+| `latest` | CPU-only. PyTorch 1.1. Keras, TF 1.13.1. | [Dockerfile](latest/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:latest.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:latest.svg)](https://microbadger.com/images/wqael/mldock:latest) |
+| `latest-gpu` | CUDA 9. PyTorch 1.1. Keras, TF 1.13.1. | [Dockerfile](latest-gpu/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:latest-gpu.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:latest-gpu.svg)](https://microbadger.com/images/wqael/mldock:latest-gpu) |
 
 ### [Keras](https://keras.io/) and [Tensorflow](https://www.tensorflow.org/)
 
@@ -29,7 +34,6 @@ docker pull wqael/mldock:<tag>
 | `keras-tf1.12.0-conda2-cuda9` | Nvidia Driver >= 384.xx | [Dockerfile](keras-tf1.12.0-conda2-cuda9/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:keras-tf1.12.0-conda2-cuda9.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:keras-tf1.12.0-conda2-cuda9.svg)](https://microbadger.com/images/wqael/mldock:keras-tf1.12.0-conda2-cuda9) |
 | `keras-tf1.4.1-conda3-cuda8` | Nvidia Driver >= 375.xx | [Dockerfile](keras-tf1.4.1-conda3-cuda8/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:keras-tf1.4.1-conda3-cuda8.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:keras-tf1.4.1-conda3-cuda8.svg)](https://microbadger.com/images/wqael/mldock:keras-tf1.4.1-conda3-cuda8) |
 | `keras-tf1.4.1-conda2-cuda8` | Nvidia Driver >= 375.xx | [Dockerfile](keras-tf1.4.1-conda2-cuda8/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:keras-tf1.4.1-conda2-cuda8.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:keras-tf1.4.1-conda2-cuda8.svg)](https://microbadger.com/images/wqael/mldock:keras-tf1.4.1-conda2-cuda8) |
-
 
 ### [PyTorch](https://pytorch.org/)
 

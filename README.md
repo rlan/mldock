@@ -19,8 +19,8 @@ docker pull wqael/mldock:<tag>
 
 | Tag   | Comment | Dockerfile | Info |
 | ----- | ------- | ---------- | ---- |
-| `latest` | CPU-only. PyTorch 1.1. Keras, TF 1.13.1. | [Dockerfile](latest/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:latest.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:latest.svg)](https://microbadger.com/images/wqael/mldock:latest) |
-| `latest-gpu` | CUDA 9. PyTorch 1.1. Keras, TF 1.13.1. | [Dockerfile](latest-gpu/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:latest-gpu.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:latest-gpu.svg)](https://microbadger.com/images/wqael/mldock:latest-gpu) |
+| `latest` | CPU-only. PyTorch 1.1. Keras, TF 1.14.0. | [Dockerfile](latest/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:latest.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:latest.svg)](https://microbadger.com/images/wqael/mldock:latest) |
+| `latest-gpu` | CUDA 9. PyTorch 1.1. Keras, TF 1.14.0. | [Dockerfile](latest-gpu/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:latest-gpu.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:latest-gpu.svg)](https://microbadger.com/images/wqael/mldock:latest-gpu) |
 
 ### [Keras](https://keras.io/) and [Tensorflow](https://www.tensorflow.org/)
 

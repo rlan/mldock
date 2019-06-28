@@ -1,6 +1,6 @@
-FROM tensorflow/tensorflow:1.13.1-py3
+FROM tensorflow/tensorflow:1.14.0-py3
 
-LABEL description="PyTorch 1.1 / Keras / tensorflow/tensorflow:1.13.1-py3 (Python 3.5.2 / Ubuntu 16.04.5 LTS)" \
+LABEL description="PyTorch 1.1 / Keras / tensorflow/tensorflow:1.14.0-py3 (Python 3.5.2 / Ubuntu 16.04.5 LTS)" \
       maintainer="https://github.com/rlan/mldock"
 
 

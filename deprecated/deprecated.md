@@ -4,6 +4,8 @@
 
 | Tag (Conda-based python) | Comment | Dockerfile | Info  |
 | ------------------------ | ------- | ---------- | ----  |
+| `keras-tf1.13.1-conda3` | CPU-only | [Dockerfile](keras-tf1.13.1-conda3/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:keras-tf1.13.1-conda3.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:keras-tf1.13.1-conda3.svg)](https://microbadger.com/images/wqael/mldock:keras-tf1.13.1-conda3) |
+| `keras-tf1.13.1-conda2` | CPU-only | [Dockerfile](keras-tf1.13.1-conda2/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:keras-tf1.13.1-conda2.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:keras-tf1.13.1-conda2.svg)](https://microbadger.com/images/wqael/mldock:keras-tf1.13.1-conda2) |
 | `keras-tf1.12.0-conda3` | CPU-only | [Dockerfile](keras-tf1.12.0-conda3/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:keras-tf1.12.0-conda3.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:keras-tf1.12.0-conda3.svg)](https://microbadger.com/images/wqael/mldock:keras-tf1.12.0-conda3) |
 | `keras-tf1.12.0-conda2` | CPU-only | [Dockerfile](keras-tf1.12.0-conda2/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:keras-tf1.12.0-conda2.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:keras-tf1.12.0-conda2.svg)](https://microbadger.com/images/wqael/mldock:keras-tf1.12.0-conda2) |
 

@@ -1,6 +1,6 @@
 FROM tensorflow/tensorflow:1.14.0-gpu-py3
 
-LABEL description="PyTorch 1.1 / Keras / tensorflow/tensorflow:1.14.0-gpu-py3 (Python 3.5.2 / Ubuntu 16.04.5 LTS)" \
+LABEL description="PyTorch 1.1 / Keras / tensorflow/tensorflow:1.14.0-gpu-py3 (Python 3.6.8 / Ubuntu 16.04.5 LTS)" \
       maintainer="https://github.com/rlan/mldock"
 
 
@@ -30,5 +30,6 @@ RUN apt-get -qq update \
       pydot
 
 # Install PyTorch
-RUN ${PIP} --no-cache-dir install -q \
-      torch torchvision
+RUN ${PIP} install -q future \
+    && ${PIP} --no-cache-dir install -q https://download.pytorch.org/whl/cu100/torch-1.1.0-cp36-cp36m-linux_x86_64.whl \
+    && ${PIP} --no-cache-dir install -q https://download.pytorch.org/whl/cu100/torchvision-0.3.0-cp36-cp36m-linux_x86_64.whl

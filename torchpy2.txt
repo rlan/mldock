@@ -1,3 +1,0 @@
-pytorch1.1-py2
-pytorch1.1-py2-cuda10
-pytorch1.1-py2-cuda9

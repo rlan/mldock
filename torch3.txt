@@ -1,3 +1,0 @@
-pytorch1.1-conda3
-pytorch1.1-conda3-cuda10
-pytorch1.1-conda3-cuda9

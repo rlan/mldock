@@ -40,8 +40,8 @@ docker pull wqael/mldock:<tag>
 
 | Tag (OS-based python) | Comment | Dockerfile | Info |
 | --------------------- | ------- | ---------- | ---- |
-| `keras-tf1.12.3-conda3-cuda9` | Nvidia Driver >= 384.xx | [Dockerfile](keras-tf1.12.3-conda3-cuda9/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:keras-tf1.12.3-conda3-cuda9.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:keras-tf1.12.3-conda3-cuda9.svg)](https://microbadger.com/images/wqael/mldock:keras-tf1.12.3-conda3-cuda9) |
-| `keras-tf1.12.3-conda2-cuda9` | Nvidia Driver >= 384.xx | [Dockerfile](keras-tf1.12.3-conda2-cuda9/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:keras-tf1.12.3-conda2-cuda9.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:keras-tf1.12.3-conda2-cuda9.svg)](https://microbadger.com/images/wqael/mldock:keras-tf1.12.3-conda2-cuda9) |
+| `keras-tf1.12.3-py3-cuda9` | Nvidia Driver >= 384.xx | [Dockerfile](keras-tf1.12.3-py3-cuda9/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:keras-tf1.12.3-py3-cuda9.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:keras-tf1.12.3-py3-cuda9.svg)](https://microbadger.com/images/wqael/mldock:keras-tf1.12.3-py3-cuda9) |
+| `keras-tf1.12.3-py2-cuda9` | Nvidia Driver >= 384.xx | [Dockerfile](keras-tf1.12.3-py2-cuda9/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:keras-tf1.12.3-py2-cuda9.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:keras-tf1.12.3-py2-cuda9.svg)](https://microbadger.com/images/wqael/mldock:keras-tf1.12.3-py2-cuda9) |
 
 
 ### [PyTorch](https://pytorch.org/)

@@ -22,8 +22,8 @@ Parent images are here: [https://github.com/rlan/mldock](https://github.com/rlan
 
 | Tag   | Comment | Dockerfile | Info |
 | ----- | ------- | ---------- | ---- |
-| `latest` | CPU-only. PyTorch 1.1. Keras, TF 1.14.0. | [Dockerfile](latest/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:latest.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:latest.svg)](https://microbadger.com/images/wqael/mldock:latest) |
-| `latest-gpu` | CUDA 10. PyTorch 1.1. Keras, TF 1.14.0. | [Dockerfile](latest-gpu/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:latest-gpu.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:latest-gpu.svg)](https://microbadger.com/images/wqael/mldock:latest-gpu) |
+| `latest` | CPU-only. PyTorch 1.2. Keras, TF 1.14.0. | [Dockerfile](latest/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:latest.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:latest.svg)](https://microbadger.com/images/wqael/mldock:latest) |
+| `latest-gpu` | CUDA 10. PyTorch 1.2. Keras, TF 1.14.0. | [Dockerfile](latest-gpu/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:latest-gpu.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:latest-gpu.svg)](https://microbadger.com/images/wqael/mldock:latest-gpu) |
 | `sb` | CPU-only. Stable Baselines. PyTorch 1.1. Keras, TF 1.14.0. | [Dockerfile](sb/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:sb.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:sb.svg)](https://microbadger.com/images/wqael/mldock:sb) |
 | `sb-gpu` | CUDA 10. Stable Baselines. PyTorch 1.1. Keras, TF 1.14.0. | [Dockerfile](sb-gpu/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:sb-gpu.svg) ![](https://images.microbadger.com/badges/commit/wqael/mldock:sb-gpu.svg)](https://microbadger.com/images/wqael/mldock:sb-gpu) |
 

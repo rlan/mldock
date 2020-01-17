@@ -1,6 +1,6 @@
-FROM tensorflow/tensorflow:1.14.0-py3
+FROM tensorflow/tensorflow:1.15.0-py3
 
-LABEL description="PyTorch 1.2 / Keras 2.2.4 / tensorflow/tensorflow:1.14.0-py3 (Python 3.6.8 / Ubuntu 16.04.5 LTS)" \
+LABEL description="PyTorch 1.4 / Keras 2.3.1 / tensorflow/tensorflow:1.15.0-py3 (Python 3.6.8 / Ubuntu 16.04.5 LTS)" \
       maintainer="https://github.com/rlan/mldock"
 
 
@@ -34,4 +34,4 @@ RUN apt-get -qq update \
 
 # Install PyTorch
 RUN ${PIP} --no-cache-dir install -q --upgrade \
-      torch==1.2.0+cpu torchvision==0.4.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+      torch==1.4.0+cpu torchvision==0.5.0+cpu -f https://download.pytorch.org/whl/torch_stable.html

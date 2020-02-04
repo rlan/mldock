@@ -1,6 +1,6 @@
 FROM wqael/docker:py3-cuda101
 
-LABEL description="PyTorch 1.4 / Keras 2.3.1 / TensorFlow 1.15.0 / Python 3.5 / Nvidia CUDA 10.1 / Ubuntu 16.04" \
+LABEL description="PyTorch 1.4 / Keras 2.3.1 / TensorFlow 1.15.2 / Python 3.5 / Nvidia CUDA 10.1 / Ubuntu 16.04" \
       maintainer="https://github.com/rlan/mldock"
 
 
@@ -24,7 +24,7 @@ RUN ${PIP} --no-cache-dir install -q --upgrade pip setuptools wheel
 
 # Install TensorFlow
 RUN ${PIP} --no-cache-dir install -q --upgrade \
-      tensorflow==1.15
+      tensorflow==1.15.2
 
 # Install Keras
 RUN apt-get -qq update \

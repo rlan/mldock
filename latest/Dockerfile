@@ -1,6 +1,6 @@
-FROM tensorflow/tensorflow:1.15.0-py3
+FROM wqael/docker:py3
 
-LABEL description="PyTorch 1.4 / Keras 2.3.1 / tensorflow/tensorflow:1.15.0-py3 (Python 3.6.8 / Ubuntu 16.04.5 LTS)" \
+LABEL description="PyTorch 1.4 / Keras 2.3.1 / TensorFlow 1.15.2 / Python 3.5 / Ubuntu 16.04" \
       maintainer="https://github.com/rlan/mldock"
 
 
@@ -16,9 +16,15 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 
 ARG PYTHON=python3
 ARG PIP=pip3
+# Skips tzdata configuration
+ARG DEBIAN_FRONTEND=noninteractive
 
 # Update python tools
 RUN ${PIP} --no-cache-dir install -q --upgrade pip setuptools wheel
+
+# Install TensorFlow
+RUN ${PIP} --no-cache-dir install -q --upgrade \
+      tensorflow==1.15.2
 
 # Install Keras
 RUN apt-get -qq update \

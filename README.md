@@ -49,9 +49,9 @@ Parent images are here: [https://github.com/rlan/mldock](https://github.com/rlan
 
 | Tag (OS-based python) | Comment | Dockerfile | Info |
 | --------------------- | ------- | ---------- | ---- |
-| `pytorch1.4` | CPU-only | [Dockerfile](pytorch1.4/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:pytorch1.4.svg)](https://microbadger.com/images/wqael/mldock:pytorch1.4) |
-| `pytorch1.4-cuda101` | Nvidia Driver >= 418.xx | [Dockerfile](pytorch1.4-cuda101/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:pytorch1.4-cuda101.svg)](https://microbadger.com/images/wqael/mldock:pytorch1.4-cuda101) |
-| `pytorch1.4-cuda92` | Nvidia Driver >= 396.37 | [Dockerfile](pytorch1.4-cuda92/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:pytorch1.4-cuda92.svg)](https://microbadger.com/images/wqael/mldock:pytorch1.4-cuda92) |
+| `pytorch1.5` | CPU-only | [Dockerfile](pytorch1.5/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:pytorch1.5.svg)](https://microbadger.com/images/wqael/mldock:pytorch1.5) |
+| `pytorch1.5-cuda101` | Nvidia Driver >= 418.xx | [Dockerfile](pytorch1.5-cuda101/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:pytorch1.5-cuda101.svg)](https://microbadger.com/images/wqael/mldock:pytorch1.5-cuda101) |
+| `pytorch1.5-cuda92` | Nvidia Driver >= 396.37 | [Dockerfile](pytorch1.5-cuda92/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:pytorch1.5-cuda92.svg)](https://microbadger.com/images/wqael/mldock:pytorch1.5-cuda92) |
 | `pytorch1.2-py3-cuda10` | Nvidia Driver >= 410.xx | [Dockerfile](pytorch1.2-py3-cuda10/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:pytorch1.2-py3-cuda10.svg)](https://microbadger.com/images/wqael/mldock:pytorch1.2-py3-cuda10) |
 | `pytorch1.2-py2-cuda10` | Nvidia Driver >= 410.xx | [Dockerfile](pytorch1.2-py2-cuda10/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:pytorch1.2-py2-cuda10.svg)](https://microbadger.com/images/wqael/mldock:pytorch1.2-py2-cuda10) |
 | `pytorch1.1-py3-cuda9` | Nvidia Driver >= 384.xx | [Dockerfile](pytorch1.1-py3-cuda9/Dockerfile) | [![](https://images.microbadger.com/badges/image/wqael/mldock:pytorch1.1-py3-cuda9.svg)](https://microbadger.com/images/wqael/mldock:pytorch1.1-py3-cuda9) |

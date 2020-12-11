@@ -18,4 +18,4 @@ RUN pip --no-cache-dir install -q --upgrade pip setuptools wheel
 
 # Install pytorch
 RUN pip --no-cache-dir install -q --upgrade \
-      torch==1.7.0+cu110 torchvision==0.8.1+cu110 torchaudio===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
+      torch==1.7.1+cpu torchvision==0.8.2+cpu torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html

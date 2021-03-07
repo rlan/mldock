@@ -1,6 +1,6 @@
-FROM wqael/docker:py36
+FROM wqael/docker:py36-cuda102
 
-LABEL description="PyTorch 1.7 / Python 3.6 / ubuntu18.04" \
+LABEL description="PyTorch 1.8.0 / Python 3.6 / nvidia/cuda:10.2-cudnn7-runtime-ubuntu18.04" \
       maintainer="https://github.com/rlan/mldock"
 
 
@@ -18,4 +18,4 @@ RUN pip --no-cache-dir install -q --upgrade pip setuptools wheel
 
 # Install pytorch
 RUN pip --no-cache-dir install -q --upgrade \
-      torch==1.7.0+cpu torchvision==0.8.1+cpu torchaudio==0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
+       torch torchvision torchaudio
